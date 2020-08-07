@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity2">
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menubot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/ic_launcher_background"
+
+        app:menu="@menu/menu_bot">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="254dp"
+        android:layout_marginRight="-2dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/boton_like_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#00000000"
+            android:onClick="Mensaje"
+            android:src="@mipmap/ic_like_foreground" />
+
+        <ImageButton
+            android:id="@+id/boton_dislike_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#00000000"
+            android:onClick="Mensaje2"
+            android:src="@mipmap/ic_dislike_foreground" />
+
+        <ImageButton
+            android:id="@+id/boton_share_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#00000000"
+            android:onClick="Compartir"
+            android:src="@mipmap/ic_share_foreground" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="84dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@mipmap/ic_perfilgonzalo" />
+
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="160dp"
+            android:layout_height="111dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="120dp"
+            app:layout_anchor="@+id/imageView7"
+            app:layout_anchorGravity="top|center"
+            app:srcCompat="@mipmap/ic_miactividad" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/coming_soon"
+            android:text="Gonzalo Andres Adaro Cartagena"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+        android:id="@+id/textView2"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="@font/coming_soon"
+        android:text="Gonzalo observando la piramide de Kukulkan"
+        android:textAlignment="center" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="554dp"
+        android:layout_marginRight="-2dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/boton_like_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#00000000"
+            android:onClick="Mensaje"
+            android:src="@mipmap/ic_like_foreground" />
+
+        <ImageButton
+            android:id="@+id/boton_dislike_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#00000000"
+            android:onClick="Mensaje2"
+            android:src="@mipmap/ic_dislike_foreground" />
+
+        <ImageButton
+            android:id="@+id/boton_share_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:backgroundTint="#00000000"
+            android:onClick="Compartir"
+            android:src="@mipmap/ic_share_foreground" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="84dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="320dp"
+        app:srcCompat="@mipmap/ic_perfilgonzalo" />
+
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="160dp"
+        android:layout_height="111dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="420dp"
+        app:layout_anchor="@+id/imageView7"
+        app:layout_anchorGravity="top|center"
+        app:srcCompat="@mipmap/ic_snorquel" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="345dp"
+        android:fontFamily="@font/coming_soon"
+        android:text="Gonzalo Andres Adaro Cartagena"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="460dp"
+        android:fontFamily="@font/coming_soon"
+        android:text="Gonzalo haciendo snorquel"
+        android:textAlignment="center" />
+
+
+
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">}
+
+    <item android:id="@+id/añadirpersona"
+        android:title="Añadir"
+        android:icon="@drawable/ic_anadir" />
+
+    <item android:id="@+id/editar"
+        android:title="Editar"
+        android:icon="@drawable/ic_baseline_edit_24" />
+
+    <item android:id="@+id/borrar"
+        android:title="Borrar"
+        android:icon="@drawable/ic_baseline_delete_24" />
+
+</menu>

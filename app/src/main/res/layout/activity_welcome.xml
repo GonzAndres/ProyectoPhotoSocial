@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#879298"
+    android:fitsSystemWindows="true"
+    tools:context=".WelcomeActivity"
+    android:orientation="vertical"
+    >
+
+
+    <com.google.android.material.tabs.TabLayout
+
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/ic_launcher_background">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabfotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotos" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabperfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabubicacion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+
+
+
+
+</LinearLayout>
